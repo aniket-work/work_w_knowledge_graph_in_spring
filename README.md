@@ -1,2 +1,4 @@
-# work_w_knowledge_graph_in_spring
-work_w_knowledge_graph_in_spring
+
+# list all properties of a Node
+MATCH (n:Tag)
+RETURN DISTINCT keys(n)
